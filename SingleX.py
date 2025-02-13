@@ -1,12 +1,12 @@
 import numpy as np
 from sklearn.linear_model import LinearRegression
 
-X =np.array([[4], [6], [7], [8], [9], [11]])
-y =np.array([9,7,6,5,3,1])
+X =np.array([[], [], [], [], [], []])
+y =np.array([,,,,,])
 
 model = LinearRegression()
 model.fit(X, y)
 
-prediccion = model.predict([[2]])
+prediccion = model.predict([[]])
 
-print(f"Horas productiva: {prediccion[0]} miles de dólares")   
+print(f"Lorem: {prediccion[0]} ipsum")   
